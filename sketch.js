@@ -86,12 +86,13 @@ function draw() {
 function drawUI() {
   fill(255, 200);
   noStroke();
-  rect(20, 20, 180, 40, 8);
+  rect(20, 20, 220, 75, 8);
   fill(50);
-  textAlign(LEFT, CENTER);
+  textAlign(LEFT, TOP);
   textSize(18);
   let styleNames = ["經典金圓", "優雅珍珠", "時尚流蘇"];
-  text("✨ 樣式: " + styleNames[styleIndex], 35, 40);
+  text("✨ 樣式: " + styleNames[styleIndex], 35, 32);
+  text("🆔 414730191 何鈺淇", 35, 58);
 }
 
 function drawEarring(pt, dw, dh, size, spacing) {
